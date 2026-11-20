@@ -1,0 +1,846 @@
+<!DOCTYPE html>
+
+<html class="scroll-smooth" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Donny Afandy Ginting — Cloud Architecture &amp; Operations Executive</title>
+<!-- Google Fonts: Inter & Plus Jakarta Sans -->
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&amp;family=Plus+Jakarta+Sans:wght@400;500;600;700;800;900&amp;display=swap" rel="stylesheet"/>
+<!-- Tailwind CSS v3 with Plugins -->
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          fontFamily: {
+            sans: ['"Plus Jakarta Sans"', 'Inter', '-apple-system', 'BlinkMacSystemFont', 'sans-serif'],
+            display: ['"Plus Jakarta Sans"', 'Inter', 'sans-serif'],
+          },
+          colors: {
+            obsidian: '#18181B',
+            graphite: '#1E2022',
+            subtle: '#71717A',
+            borderhair: '#E4E4E7',
+            cardbg: '#F7F7F8',
+            hoverbg: '#F4F4F5',
+            actionbtn: '#27272A',
+          },
+          letterSpacing: {
+            tight: '-0.04em',
+            tighter: '-0.05em',
+            tightest: '-0.06em',
+          }
+        }
+      }
+    }
+  </script>
+<!-- Custom Typography & Layout Styles -->
+<style data-purpose="typography">
+    body {
+      font-feature-settings: 'cv02', 'cv03', 'cv04', 'cv11';
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+    }
+    .huge-name-display {
+      font-size: clamp(3.2rem, 10.5vw, 10.8rem);
+      line-height: 0.88;
+      letter-spacing: -0.04em;
+    }
+    .huge-footer-watermark {
+      font-size: clamp(3.2rem, 12.5vw, 13.5rem);
+      line-height: 0.82;
+      letter-spacing: -0.04em;
+    }
+  </style>
+<style data-purpose="components">
+    .swiss-pill-btn {
+      transition: all 0.25s cubic-bezier(0.16, 1, 0.3, 1);
+    }
+    .swiss-pill-btn:hover {
+      transform: translateY(-1px);
+      box-shadow: 0 4px 14px rgba(24, 24, 27, 0.15);
+    }
+    .line-clamp-2 {
+      display: -webkit-box;
+      -webkit-line-clamp: 2;
+      -webkit-box-orient: vertical;
+      overflow: hidden;
+    }
+  </style>
+</head>
+<body class="bg-white text-obsidian selection:bg-obsidian selection:text-white font-sans antialiased">
+<!-- BEGIN: MainHeader -->
+<header class="sticky top-0 z-50 bg-white/90 backdrop-blur-md border-b border-borderhair" data-purpose="site-navigation">
+<div class="max-w-[1400px] mx-auto px-4 sm:px-6 lg:px-10 h-20 flex items-center justify-between">
+<!-- Brand Logo -->
+<a class="text-xl font-extrabold tracking-tight text-obsidian flex items-center gap-1.5 focus:outline-none" href="#">
+<span>Donny.AG</span>
+<span class="w-1.5 h-1.5 rounded-full bg-obsidian"></span>
+</a>
+<!-- Desktop Navigation Menu -->
+<nav aria-label="Main Navigation" class="hidden md:flex items-center space-x-8 text-sm font-medium text-subtle">
+<a class="text-obsidian transition-colors duration-150 hover:text-black" href="#hero">Home</a>
+<a class="hover:text-obsidian transition-colors duration-150" href="#works">Experience</a>
+<a class="hover:text-obsidian transition-colors duration-150" href="#expertise">Expertise</a>
+<a class="hover:text-obsidian transition-colors duration-150" href="#credentials">Credentials</a>
+<a class="hover:text-obsidian transition-colors duration-150" href="#faq">FAQ</a>
+</nav>
+<!-- Contact Pill Button -->
+<div class="flex items-center gap-3">
+<a class="swiss-pill-btn inline-flex items-center gap-2 bg-[#27272A] text-white text-xs sm:text-sm font-semibold px-5 py-2.5 rounded-full hover:bg-neutral-800" href="#contact">
+<span>Contact</span>
+<span>→</span>
+</a>
+</div>
+</div>
+</header>
+<!-- END: MainHeader -->
+<main>
+<!-- BEGIN: HeroSection -->
+<section class="pt-10 sm:pt-14 pb-16 border-b border-borderhair overflow-hidden sm:pb-20" data-purpose="hero-intro" id="hero">
+<div class="max-w-[1400px] mx-auto px-4 sm:px-6 lg:px-10">
+<!-- Massive Edge-to-Edge Name Title -->
+<div class="w-full text-left mb-6 sm:mb-8">
+<h1 class="huge-name-display font-extrabold tracking-tight text-obsidian uppercase select-none">
+            Donny Afandy Ginting
+          </h1>
+</div>
+<!-- 3-Column Swiss Metadata Bar -->
+<div class="grid grid-cols-1 sm:grid-cols-3 gap-4 sm:gap-6 py-4 border-t border-b border-borderhair text-xs sm:text-sm text-subtle font-medium mb-10 sm:mb-14">
+<div class="flex items-center sm:justify-start">
+<span>Cloud &amp; IT Infrastructure Specialist | Operations &amp; HR Leader</span>
+</div>
+<div class="flex items-center sm:justify-center">
+<span>Based in Medan &amp; Jakarta, Indonesia</span>
+</div>
+<div class="flex items-center sm:justify-end">
+<span class="inline-block w-2 h-2 rounded-full bg-emerald-500 mr-2"></span>
+<span>Available Globally</span>
+</div>
+</div>
+<!-- Centered Editorial Bio Statement -->
+<div class="max-w-4xl mx-auto text-center mb-12 sm:mb-16">
+<p class="text-xl sm:text-2xl md:text-3xl text-obsidian font-semibold leading-relaxed tracking-tight">
+            “A multidisciplinary leader bridging Cloud Architecture, IT Infrastructure, and Strategic Operations—delivering resilient systems and scalable business workflows.”
+          </p>
+</div>
+<!-- Full-width Landscape Hero Portrait Container -->
+<div class="relative w-full rounded-2xl overflow-hidden bg-cardbg border border-borderhair shadow-sm mb-4">
+<div class="relative w-full aspect-[16/9] sm:aspect-[21/9] flex items-center justify-center bg-zinc-100/60 overflow-hidden">
+<img alt="Donny Afandy Ginting - Cloud Architecture &amp; Operations Executive" class="w-full h-full object-cover object-[center_28%] transition-transform duration-700 ease-in-out hover:scale-[1.02]" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBPDou14NsOvH_EZm-bScdV7BYPTWcPQd7RpgAKFnncPObZI2uh8Q-57pCB8NdHsdvnEjKFuxaVn5VdtBWhpTY0-I4jeH0KqxJ-BAu5H-RU28aPo_raI7uj98uDQeGacrGQP4DV2qaY47SiNQRhA1ks2GwsU9PsuLT_lHJwsW7Kv7V6rdSnqTAx5lCRGMYoFBv2F0nBp-aLV0wVEdmE-OGql_V8H_DMoARvaumXfDdWSrLalkEjzQe7"/>
+<div class="absolute bottom-4 left-4 sm:bottom-6 sm:left-6 bg-white/95 backdrop-blur-md px-4 py-2 rounded-xl border border-borderhair text-xs sm:text-sm font-semibold text-obsidian flex items-center gap-2.5 shadow-sm">
+<span class="w-2 h-2 rounded-full bg-blue-600 animate-pulse"></span>
+<span>USU Electrical Eng. • AWS &amp; Google Cloud Certified Executive</span>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- END: HeroSection -->
+<!-- BEGIN: SelectedWorksSection -->
+<section class="py-20 lg:py-28 border-b border-borderhair" data-purpose="portfolio-grid" id="works">
+<div class="max-w-[1400px] mx-auto px-4 sm:px-6 lg:px-10">
+<!-- Header Text -->
+<div class="max-w-2xl mb-14">
+<h2 class="text-3xl sm:text-4xl lg:text-5xl font-extrabold tracking-tight text-obsidian mb-4">
+            Selected Works &amp; Impact
+          </h2>
+<p class="text-subtle text-base sm:text-lg">
+            Explore a curated collection of impactful initiatives across cloud architecture, industrial engineering, and enterprise operations.
+          </p>
+</div>
+<!-- 2-Column Asymmetrical Grid -->
+<div class="grid grid-cols-1 md:grid-cols-2 gap-8 lg:gap-12">
+<!-- Card 1 -->
+<article class="group cursor-pointer">
+<div class="relative w-full aspect-[4/3] rounded-xl overflow-hidden bg-cardbg border border-borderhair mb-5 transition-transform duration-300 group-hover:-translate-y-1">
+<img alt="Cloud Architecture &amp; AWS Migration" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBSRuRVx3Bc-m3xw1joHTexrJAtY3eEHyfaLmNWUpw5S0jzP2LwOhQo7uJk3iAfZtcTqUAWNsaEgjXoYKkomTOJIuxEXxtCVt99Q2jqqm3uhZ-zjxcXKfMF1rAGBUoS4zedgzOXCEcyX94CqeQqCF-Dr4bNvjrGOwH7yHomWcqWei8TXHTOOX0YOF9GxeQRyWzznzjoJc50XyfAObOJHjJavic__N0ggMGC3UVzuhY"/>
+<div class="absolute top-4 right-4 bg-white/90 backdrop-blur-sm text-[11px] font-semibold px-3 py-1 rounded-full uppercase tracking-wider text-obsidian border border-borderhair">
+                Cloud
+              </div>
+</div>
+<div class="flex items-start justify-between">
+<div>
+<h3 class="text-xl sm:text-2xl font-bold text-obsidian group-hover:underline underline-offset-4 decoration-1">
+                  Cloud Architecture &amp; AWS Migration
+                </h3>
+<p class="text-sm text-subtle mt-1.5 line-clamp-2">
+                  Multi-tier automated cloud migration, high-availability Linux clusters, VPC peering, and secure cloud governance.
+                </p>
+</div>
+</div>
+<div class="mt-4 pt-3 border-t border-borderhair/70 flex items-center gap-3 text-xs text-subtle font-medium">
+<span>AWS</span>
+<span>•</span>
+<span>Google Cloud</span>
+<span>•</span>
+<span>Linux</span>
+</div>
+</article>
+<!-- Card 2 -->
+<article class="group cursor-pointer">
+<div class="relative w-full aspect-[4/3] rounded-xl overflow-hidden bg-cardbg border border-borderhair mb-5 transition-transform duration-300 group-hover:-translate-y-1">
+<img alt="Enterprise Intranet &amp; 24/7 Server Ops" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBQ9lxYo-QxUt5nLxwK5dK4wUA_xhf2Bfp4prTmQzz0h81ICvm_JKnbKLtAvzu7bkHDt9tCsjUlSRwyfrHqVT9wzyFVQZXU2eETBvsu8nL2_Bd1Cf7Sywb_mgbfeXt0jGWNSQv69WJLDerqdWwOYikPHw7sTlci5uRe91pdrBlNTf6x5Rx468fH1H6FKKJwDRsJ01_bH8jROMmF7xcxVhKYgmkf0mX7_bHjfsLAvgk"/>
+<div class="absolute top-4 right-4 bg-white/90 backdrop-blur-sm text-[11px] font-semibold px-3 py-1 rounded-full uppercase tracking-wider text-obsidian border border-borderhair">
+                Infrastructure
+              </div>
+</div>
+<div class="flex items-start justify-between">
+<div>
+<h3 class="text-xl sm:text-2xl font-bold text-obsidian group-hover:underline underline-offset-4 decoration-1">
+                  Enterprise Intranet &amp; 24/7 Server Ops
+                </h3>
+<p class="text-sm text-subtle mt-1.5 line-clamp-2">
+                  Centralized domain controller, VPN branches, zero data loss backup schedule, and continuous 99.9% uptime.
+                </p>
+</div>
+</div>
+<div class="mt-4 pt-3 border-t border-borderhair/70 flex items-center gap-3 text-xs text-subtle font-medium">
+<span>PT Moisani Manggala Wisata</span>
+<span>•</span>
+<span>IT Management</span>
+</div>
+</article>
+<!-- Card 3 -->
+<article class="group cursor-pointer">
+<div class="relative w-full aspect-[4/3] rounded-xl overflow-hidden bg-cardbg border border-borderhair mb-5 transition-transform duration-300 group-hover:-translate-y-1">
+<img alt="Air Cargo &amp; Logistics SOP Optimization" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCu1NXXodDgdQQnQREKy8103bk4XcFyJ1URX_FBVfP9O44KhfaZLGq_IpXL7iejfxUYIytaDuWuxfpn4TSb5AUy06t5jXQg0WM-mr5z-uK_ZOkVodyShS7w2Xzapjd5FSCcWhb8LQwk_jrSHbRS460IKKWwH5y99_b_sMu_8-rC3j42eBamEBaOm5bb3OLcdEv-JWqZo833ESCf4RlGOuL5RQT4wpfz8BBoIofJkns"/>
+<div class="absolute top-4 right-4 bg-white/90 backdrop-blur-sm text-[11px] font-semibold px-3 py-1 rounded-full uppercase tracking-wider text-obsidian border border-borderhair">
+                Supply Chain
+              </div>
+</div>
+<div class="flex items-start justify-between">
+<div>
+<h3 class="text-xl sm:text-2xl font-bold text-obsidian group-hover:underline underline-offset-4 decoration-1">
+                  Air Cargo &amp; Logistics SOP Optimization
+                </h3>
+<p class="text-sm text-subtle mt-1.5 line-clamp-2">
+                  Streamlined airport customs SLA compliance, cargo handling telemetry, and turnaround speed.
+                </p>
+</div>
+</div>
+<div class="mt-4 pt-3 border-t border-borderhair/70 flex items-center gap-3 text-xs text-subtle font-medium">
+<span>PT Moisani Manggala Cargo</span>
+<span>•</span>
+<span>Operations</span>
+</div>
+</article>
+<!-- Card 4 -->
+<article class="group cursor-pointer">
+<div class="relative w-full aspect-[4/3] rounded-xl overflow-hidden bg-cardbg border border-borderhair mb-5 transition-transform duration-300 group-hover:-translate-y-1">
+<img alt="Biogas &amp; Industrial Electrical Systems" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" src="https://lh3.googleusercontent.com/aida-public/AB6AXuB4MBPASMJ2Bi3T5kN35DMoauyrORK4IbVaEwqgZHy4bll1oCT1kTGLCpPHx9LPGqRebb5lqdoSVa89Ip_fTziLJpCBRwqZPAxe8QWANJi--XABgh4SFIW_uISkQc6bZCUIY9kuZT4uDOO4IPNGX34RQlzxqg8uq_h-tKNP4WrkIwO-Cr0N62swDHr18Ny-JmjRwruEOYPNpMdfNGFC2HDyXJsQjNAS60s-B4b5LnM"/>
+<div class="absolute top-4 right-4 bg-white/90 backdrop-blur-sm text-[11px] font-semibold px-3 py-1 rounded-full uppercase tracking-wider text-obsidian border border-borderhair">
+                Industrial Eng
+              </div>
+</div>
+<div class="flex items-start justify-between">
+<div>
+<h3 class="text-xl sm:text-2xl font-bold text-obsidian group-hover:underline underline-offset-4 decoration-1">
+                  Biogas &amp; Industrial Electrical Systems
+                </h3>
+<p class="text-sm text-subtle mt-1.5 line-clamp-2">
+                  Electrical distribution, telemetry instrumentation, generator sync, and K3 safety enforcement.
+                </p>
+</div>
+</div>
+<div class="mt-4 pt-3 border-t border-borderhair/70 flex items-center gap-3 text-xs text-subtle font-medium">
+<span>PT Evans Indonesia</span>
+<span>•</span>
+<span>Engineering</span>
+</div>
+</article>
+<!-- Card 5 -->
+<article class="group cursor-pointer">
+<div class="relative w-full aspect-[4/3] rounded-xl overflow-hidden bg-cardbg border border-borderhair mb-5 transition-transform duration-300 group-hover:-translate-y-1">
+<img alt="5-Star Hospitality IT Infrastructure" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDyluvUVbGHYywsjRiG8mZEulo35nA7XLli2G3fnE0rvQMUukT6mhSgNSol3l3ywmvIv56jleBKVCKWQ11OY6jHC1JyGzssG0az6N9_eIhqVFbj3Wm1vyGpZdqbz2zoSp83gRVzaUWzefiudwbcUsRUGarsX3zQEJH5bIAZQeuKgm7COuGLWaEj_oIXg7UGtYMbDgyyGTZ0DRNhCnGIz02GIsfMQiQKsYF9wJD05U0"/>
+<div class="absolute top-4 right-4 bg-white/90 backdrop-blur-sm text-[11px] font-semibold px-3 py-1 rounded-full uppercase tracking-wider text-obsidian border border-borderhair">
+                Hospitality IT
+              </div>
+</div>
+<div class="flex items-start justify-between">
+<div>
+<h3 class="text-xl sm:text-2xl font-bold text-obsidian group-hover:underline underline-offset-4 decoration-1">
+                  5-Star Hospitality IT Infrastructure
+                </h3>
+<p class="text-sm text-subtle mt-1.5 line-clamp-2">
+                  Enterprise PMS/POS integration, PABX systems, guest VLAN isolation, and audit readiness.
+                </p>
+</div>
+</div>
+<div class="mt-4 pt-3 border-t border-borderhair/70 flex items-center gap-3 text-xs text-subtle font-medium">
+<span>Aryaduta Hotel Medan</span>
+<span>•</span>
+<span>EDP Systems</span>
+</div>
+</article>
+<!-- Card 6 -->
+<article class="group cursor-pointer">
+<div class="relative w-full aspect-[4/3] rounded-xl overflow-hidden bg-cardbg border border-borderhair mb-5 transition-transform duration-300 group-hover:-translate-y-1">
+<img alt="HR Governance &amp; Talent Development" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" src="https://lh3.googleusercontent.com/aida-public/AB6AXuC9oHOmOnbUQ4xFntgO3VIs2TqAiOG8mziIbKBABGAjRhEwj87LDw01yMCY5XZ46EGhNW1l9LFArWBN9ZqcWY-_5c3P26NhA6N81OVWd6rmkoj3ThZH7xoxyAdUE6pE9mVnp9KswtpusYcD1GregGFIgFoasvn77A0-wtl_ShcJYVSx9rrSSJNT-GOWXl9F7DE-pLQJZ7IF4idGKqjdfR7VITvzJMy1-UP63TmiLQU"/>
+<div class="absolute top-4 right-4 bg-white/90 backdrop-blur-sm text-[11px] font-semibold px-3 py-1 rounded-full uppercase tracking-wider text-obsidian border border-borderhair">
+                HR Governance
+              </div>
+</div>
+<div class="flex items-start justify-between">
+<div>
+<h3 class="text-xl sm:text-2xl font-bold text-obsidian group-hover:underline underline-offset-4 decoration-1">
+                  HR Governance &amp; Talent Development
+                </h3>
+<p class="text-sm text-subtle mt-1.5 line-clamp-2">
+                  Cross-department labor standards, KPI appraisal matrices, STIFIn-based cognitive recruitment, and leadership alignment.
+                </p>
+</div>
+</div>
+<div class="mt-4 pt-3 border-t border-borderhair/70 flex items-center gap-3 text-xs text-subtle font-medium">
+<span>Organizational Leadership</span>
+<span>•</span>
+<span>SOP</span>
+</div>
+</article>
+</div>
+</div>
+</section>
+<!-- END: SelectedWorksSection -->
+<!-- BEGIN: CoreExpertiseSection -->
+<section class="py-20 lg:py-28 border-b border-borderhair bg-white" data-purpose="services-expertise" id="expertise">
+<div class="max-w-[1400px] mx-auto px-4 sm:px-6 lg:px-10">
+<!-- Header -->
+<div class="text-center max-w-2xl mx-auto mb-16">
+<h2 class="text-3xl sm:text-4xl lg:text-5xl font-extrabold tracking-tight text-obsidian mb-3">
+            Core Expertise
+          </h2>
+<p class="text-subtle text-base sm:text-lg">
+            A cohesive suite of high-impact competencies spanning cloud engineering, physical infrastructure, and systemic operational execution.
+          </p>
+</div>
+<!-- 4 Horizontal Capability Rows with Hairline Dividers -->
+<div class="border-t border-borderhair">
+<!-- Row 01 -->
+<div class="py-8 sm:py-12 border-b border-borderhair grid grid-cols-1 lg:grid-cols-12 gap-6 items-center">
+<div class="lg:col-span-1 text-subtle font-mono text-sm">[01]</div>
+<div class="lg:col-span-4">
+<h3 class="text-xl sm:text-2xl font-bold text-obsidian tracking-tight">
+                Cloud &amp; Infrastructure Engineering
+              </h3>
+</div>
+<div class="lg:col-span-4">
+<p class="text-sm sm:text-base text-subtle leading-relaxed">
+                AWS Certified Cloud Practitioner, Google Cloud Engineer, RHEL/Ubuntu Linux, and Python automation with robust resilience.
+              </p>
+</div>
+<div class="lg:col-span-3 flex justify-start lg:justify-end gap-2">
+<img alt="Server rack" class="w-16 h-16 rounded-md object-cover border border-borderhair" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDdi69lEAbnfAKSU4UVAfyG-KoSoXlfHEEZgwR1f0lPaUiSq-XS9Um7JCr9cA6OK5U4p86G043ZrJz0a8xhgCvMTrWyQVANXp7qx03CNVvzKFRK2dI88gP9huUaiCbZnFEi12kYj3-i2QhMbYj9QaRdg-oi4DkEeya0hUW-ZoCcl2UoZq3JuHr2ENKW_nYsffuNAQv963QjL6IfTi5RfBSYGFVpBdDR7et1HYGN4qY"/>
+<img alt="Cloud code terminal" class="w-16 h-16 rounded-md object-cover border border-borderhair" src="https://lh3.googleusercontent.com/aida-public/AB6AXuA8KpUrNmtQbICa4quwomnT5A9U60XeSLLi2jB5_fqKhFq44EInoP4qxPTyRRlZ92Nu02r7-V2B6ct2iPF0HRCkFHbaI3z7XhtJ7GLaS2AgD-Vu3694QNrsHVQ3Sn6am2Te4FTlD-1HNhoB8j9Rdp7yPQ-BpqOAlqRHgyBvCSUA78CYyn48D14QFSXFFE7oiuCveiC_2T5Wjb6InS_gKKezm0cyrwL0EloC9HtnMmI"/>
+<img alt="Metrics graph" class="w-16 h-16 rounded-md object-cover border border-borderhair" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCsQwvNFtv4aDFdxMvtWUY3qGYNZUA3FE7MyBy5w7d7yec6aT6STybtA_wUix7WYFBz_ADAoZuH4rG-Mg9D436WhqTxb3mRNqkgnkKk5Cnt4O1oI3Zs-0zd3zzb_PgAeKZP3QacB5ZZ0EQo0iskkiP7I68MZjP_NSeKMcos5k5kF3121VoxTqQpzSTpb5fjJFvj3SvoJgLm704KAe0fWSm-Ky9N7cqsoTnWJs68Jxw"/>
+</div>
+</div>
+<!-- Row 02 -->
+<div class="py-8 sm:py-12 border-b border-borderhair grid grid-cols-1 lg:grid-cols-12 gap-6 items-center">
+<div class="lg:col-span-1 text-subtle font-mono text-sm">[02]</div>
+<div class="lg:col-span-4">
+<h3 class="text-xl sm:text-2xl font-bold text-obsidian tracking-tight">
+                IT Operations &amp; Network Security
+              </h3>
+</div>
+<div class="lg:col-span-4">
+<p class="text-sm sm:text-base text-subtle leading-relaxed">
+                CCNA Exploration, 24/7 enterprise server reliability, intranet architecture, and zero-downtime disaster recovery.
+              </p>
+</div>
+<div class="lg:col-span-3 flex justify-start lg:justify-end gap-2">
+<img alt="Cargo logistics" class="w-16 h-16 rounded-md object-cover border border-borderhair" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAjgToPAMZe8AzLbBL-fG1xpL3T55_dMWwGmRU6jlp9MrakAGWRaxmBrBIYDXxqVvt8S7xf_rcVIf3CgP8ceLDUk76Xgthaszq-jSr0iPzXSfdk5ngLpboc0NJDu0saP-NMbL-AOPYxJYtP9E34C0eZrOlde3OFdM26MnPC-yFkMT7110YME3_gcdzwnMEBntIk-0pzLxmOdLpGw4GNLoQp6lysdxtjOzYq6Wp5-Mc"/>
+<img alt="Warehouse supply" class="w-16 h-16 rounded-md object-cover border border-borderhair" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBnJJ1cP6_Z0LBRSRI2-ZQHenQaoRr-CLzVvSWYKE1rQPhbJ_3Jb_vcVDW_Lb2PSxrY90MOSYQ1IyMFTXdWTSaKRv5Z-bW9rpVLlj_JWtk_WnX2sBQXMIUHHm9m3wYN3KvtuxfN6Ul9DdRHlnk1XPDxnmPBUmzHsiTU0nkvcPmuVmcTd5D3obEXJ463UEva2f2k8Kx0pM4AuzH76nl-Q0GGMpeUuUuob-uHAUFOdME"/>
+<img alt="Checklist clipboard" class="w-16 h-16 rounded-md object-cover border border-borderhair" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDKe-ymIngJdAHFS7_31RAvEIgi1U9jiyAwqL9aFi_aAsoFZpalKTJMxWfFKbEbhnDOdClsjd-XtNh7bZf9Jiid2cbXNAc6ADVsRg2A0EFG6beM5qNix11NR_e90JkfL5cCA8TMGXMWMYhkNfKnWF6c2mo7gGWjWXZxcFne22a4T_IWhDUwiC4sbu_o8R_saZZc0q-StV6xM5QDg0VKFU226rBEHx4eNbKDjFa2gYQ"/>
+</div>
+</div>
+<!-- Row 03 -->
+<div class="py-8 sm:py-12 border-b border-borderhair grid grid-cols-1 lg:grid-cols-12 gap-6 items-center">
+<div class="lg:col-span-1 text-subtle font-mono text-sm">[03]</div>
+<div class="lg:col-span-4">
+<h3 class="text-xl sm:text-2xl font-bold text-obsidian tracking-tight">
+                Supply Chain &amp; Logistics Management
+              </h3>
+</div>
+<div class="lg:col-span-4">
+<p class="text-sm sm:text-base text-subtle leading-relaxed">
+                Air transport cargo operations, lead-time optimization, airport customs SLA governance, and fleet execution.
+              </p>
+</div>
+<div class="lg:col-span-3 flex justify-start lg:justify-end gap-2">
+<img alt="HR team meeting" class="w-16 h-16 rounded-md object-cover border border-borderhair" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDQGK4BGvsykknGM5eKKR_mVYuLUGezPcj6pHLVcEguS1LchP3PTA-mqqBYQHHKUEtwtFy6IsUznpY3tDPiw65Al3BYgQeaJFWldsMONn6gTkrslrgeu7MMK4QfnsHwbUGYz4T6laSyNpNB6CALg4fCvnZNRawbLEyoL2jlXGduZzk0esfoFqMIZgEQ86sLkkkHWNBvoyIPdMBKNh1Mj3dtfbm6i5k9ehUvp2MbEMA"/>
+<img alt="SOP documents" class="w-16 h-16 rounded-md object-cover border border-borderhair" src="https://lh3.googleusercontent.com/aida-public/AB6AXuC4NDuxh5CgtcjdsbsC3LaKhMecx1tBH4WSWN-3g61Eq93uao89TsGXuwJcncOMJmq_B7ONYOfUlJR8pY2145C2t8BPZ9lb1imQiXEZ-lx8rRhhoML5zgiM9fAZpwjulTgShUc6BqrB14K3JsdQ91nL6tD7J8XCp5DSNQzq8_0AeznYM6ixJQgdk0LoX4bBslsXUuAV9lo_A2dMVydrRtjHKGw-flM8xF0LbVe3qdI"/>
+<img alt="Executive assessment" class="w-16 h-16 rounded-md object-cover border border-borderhair" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBSQaVbtxJP3PuvYhCSGlTZuWSz-EkFKjUFMo6JjUvQF2CUmVnpJXhboKMlJBGWxMhjYyOCo7ndwjqUzMqocCdLcpv7y-CsuTbw6Q1y8eGwUW-EGfxPTxqbjbXDLLV2Wq4m1dDYYXlMK_3KAZTd186aCdigkpavjiQXHflJh4apk04xXKIsETpOCoZMkthAB55gajs8Q2bxwbBX3N-LyOYeNyciziqjFok3grlQES8"/>
+</div>
+</div>
+<!-- Row 04 -->
+<div class="py-8 sm:py-12 border-b border-borderhair grid grid-cols-1 lg:grid-cols-12 gap-6 items-center">
+<div class="lg:col-span-1 text-subtle font-mono text-sm">[04]</div>
+<div class="lg:col-span-4">
+<h3 class="text-xl sm:text-2xl font-bold text-obsidian tracking-tight">
+                HR Governance &amp; Workplace Safety
+              </h3>
+</div>
+<div class="lg:col-span-4">
+<p class="text-sm sm:text-base text-subtle leading-relaxed">
+                Recruitment, corporate training, STIFIn potential mapping, and Ahli K3 Umum certified national safety standards.
+              </p>
+</div>
+<div class="lg:col-span-3 flex justify-start lg:justify-end gap-2">
+<img alt="Engineering circuit" class="w-16 h-16 rounded-md object-cover border border-borderhair" src="https://lh3.googleusercontent.com/aida-public/AB6AXuA3NPZ2JcI3_vppvRz_wKiZ4tNPqGewGJKlG6_sjFSqhQpHC_871g4pGJH2wD2u2E0cV4l9PYJ5d47ITsLD3d7scfE45GYzFuetwCWUfwlM0dtciS7g3z8_aYlnVVUE5pjB9-a6mLlG48q8p3bm4AzOOG9kz1DCl9V5bXRz9kVPkbkI_bTylXV2KSVtZmi5GgB3B_l_x-FeDSALU2D3eAqsfgT4BWCFzNDJ8z-0Aqg"/>
+<img alt="Microcontroller telemetry" class="w-16 h-16 rounded-md object-cover border border-borderhair" src="https://lh3.googleusercontent.com/aida-public/AB6AXuA--dr04JiVGUPIOE8Cd7IVqrfktD_mV1MGzORtmMM_9eVEABKBFB-STaSQFZCaj_i_UZ_7nKqJ6dcLISI9e_3AhF8XjxWoEiyGoJWY4TYHoYqP3YsIUCl6oqGFwgclLeptfSq-DIR3jzjm0z3Xfv9Z44ymsp7jJGGaLl6nwBizEIJMGLkt3X4Il-8Mi6WiUu90C5pNDkkycwN8LhRAOiU69MqDCH0FzP8Ins_E3Zw"/>
+<img alt="Electrical substation" class="w-16 h-16 rounded-md object-cover border border-borderhair" src="https://lh3.googleusercontent.com/aida-public/AB6AXuC8lrfDTLwjynyxjHQ3mh6Y0lBHyzXpGMvC4Y0dZmiIez1hrv8nMfdSNkzfv4JuBnDkbqgbeqBmKQ3KPzLlf6mNT_BXKu119MCiSv--at1GR9JwpxVeXIizymFSBDQk14POrl8urhIZUKb2pFzSHTJ-aA_qUaeRcbzBVKsPGkEmQMoeNDahFN_fIvLLhD7WgB0p3LDIBMvOvdONUIutAMAPPAofzVm7zMUS1faRaeE"/>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- END: CoreExpertiseSection -->
+<!-- BEGIN: CredentialsMatrixSection -->
+<section class="py-20 lg:py-28 border-b border-borderhair bg-white" data-purpose="certifications-matrix" id="credentials">
+<div class="max-w-[1400px] mx-auto px-4 sm:px-6 lg:px-10">
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-16 items-start">
+<!-- Left Column -->
+<div class="lg:col-span-5">
+<h2 class="text-3xl sm:text-4xl lg:text-5xl font-extrabold tracking-tight text-obsidian mb-6 leading-tight">
+              Certified &amp; Accredited
+            </h2>
+<p class="text-subtle text-base sm:text-lg mb-8 leading-relaxed">
+              A solid engineering foundation with a Telecommunications Engineering degree from Universitas Sumatera Utara (USU), reinforced by 10+ professional industry certifications in AWS, Google Cloud, Cisco, and occupational safety.
+            </p>
+<div class="p-6 bg-cardbg rounded-xl border border-borderhair">
+<div class="text-xs uppercase tracking-wider text-subtle font-semibold mb-2">Academic Degree</div>
+<div class="text-lg font-bold text-obsidian">Universitas Sumatera Utara (USU)</div>
+<div class="text-sm text-subtle mt-0.5">S1 Electrical Engineering (Teknik Elektro) — Telecommunications</div>
+<div class="mt-4 pt-4 border-t border-borderhair/80 flex items-center gap-2 text-xs font-medium text-obsidian">
+<svg class="w-4 h-4 text-emerald-600" fill="currentColor" viewbox="0 0 20 20">
+<path clip-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" fill-rule="evenodd"></path>
+</svg>
+<span>Accredited Academic Qualification</span>
+</div>
+</div>
+</div>
+<!-- Right Column: 3x3 Minimal Grid Featuring Monochrome Badges -->
+<div class="lg:col-span-7">
+<div class="grid grid-cols-1 sm:grid-cols-3 gap-px bg-borderhair border border-borderhair rounded-xl overflow-hidden shadow-sm">
+<!-- Badge 1: AWS Certified -->
+<div class="bg-white p-6 flex flex-col justify-between h-44 hover:bg-cardbg transition-colors">
+<span class="text-xs font-mono text-subtle uppercase">Amazon Web Services</span>
+<div>
+<h4 class="font-bold text-sm text-obsidian">AWS Certified</h4>
+<p class="text-xs text-subtle mt-1">Cloud Practitioner Foundational</p>
+</div>
+<div class="text-[10px] uppercase font-semibold text-zinc-800 bg-zinc-100 border border-borderhair px-2 py-0.5 rounded w-max">Active</div>
+</div>
+<!-- Badge 2: Google Cloud -->
+<div class="bg-white p-6 flex flex-col justify-between h-44 hover:bg-cardbg transition-colors">
+<span class="text-xs font-mono text-subtle uppercase">Google Cloud</span>
+<div>
+<h4 class="font-bold text-sm text-obsidian">Cloud Digital Leader</h4>
+<p class="text-xs text-subtle mt-1">Enterprise Cloud Infrastructure</p>
+</div>
+<div class="text-[10px] uppercase font-semibold text-zinc-800 bg-zinc-100 border border-borderhair px-2 py-0.5 rounded w-max">Active</div>
+</div>
+<!-- Badge 3: Dicoding Academy -->
+<div class="bg-white p-6 flex flex-col justify-between h-44 hover:bg-cardbg transition-colors">
+<span class="text-xs font-mono text-subtle uppercase">Dicoding Academy</span>
+<div>
+<h4 class="font-bold text-sm text-obsidian">Cloud Architecture</h4>
+<p class="text-xs text-subtle mt-1">Google Cloud Infrastructure</p>
+</div>
+<div class="text-[10px] uppercase font-semibold text-zinc-800 bg-zinc-100 border border-borderhair px-2 py-0.5 rounded w-max">Verified</div>
+</div>
+<!-- Badge 4: Cisco CCNA -->
+<div class="bg-white p-6 flex flex-col justify-between h-44 hover:bg-cardbg transition-colors">
+<span class="text-xs font-mono text-subtle uppercase">Cisco Networking</span>
+<div>
+<h4 class="font-bold text-sm text-obsidian">Cisco CCNA</h4>
+<p class="text-xs text-subtle mt-1">Exploration Routing &amp; Switching</p>
+</div>
+<div class="text-[10px] uppercase font-semibold text-zinc-800 bg-zinc-100 border border-borderhair px-2 py-0.5 rounded w-max">Verified</div>
+</div>
+<!-- Badge 5: Ahli K3 Umum -->
+<div class="bg-white p-6 flex flex-col justify-between h-44 hover:bg-cardbg transition-colors">
+<span class="text-xs font-mono text-subtle uppercase">Kemnaker RI</span>
+<div>
+<h4 class="font-bold text-sm text-obsidian">Ahli K3 Umum</h4>
+<p class="text-xs text-subtle mt-1">Occupational Safety Specialist</p>
+</div>
+<div class="text-[10px] uppercase font-semibold text-zinc-800 bg-zinc-100 border border-borderhair px-2 py-0.5 rounded w-max">Certified</div>
+</div>
+<!-- Badge 6: USU -->
+<div class="bg-white p-6 flex flex-col justify-between h-44 hover:bg-cardbg transition-colors">
+<span class="text-xs font-mono text-subtle uppercase">Academic Degree</span>
+<div>
+<h4 class="font-bold text-sm text-obsidian">Universitas Sumatera Utara</h4>
+<p class="text-xs text-subtle mt-1">S.T. Telecommunications Eng.</p>
+</div>
+<div class="text-[10px] uppercase font-semibold text-zinc-800 bg-zinc-100 border border-borderhair px-2 py-0.5 rounded w-max">Accredited</div>
+</div>
+<!-- Badge 7: ESQ Leadership -->
+<div class="bg-white p-6 flex flex-col justify-between h-44 hover:bg-cardbg transition-colors">
+<span class="text-xs font-mono text-subtle uppercase">ESQ Leadership</span>
+<div>
+<h4 class="font-bold text-sm text-obsidian">Character &amp; Champion</h4>
+<p class="text-xs text-subtle mt-1">Strategic Corporate Leadership</p>
+</div>
+<div class="text-[10px] uppercase font-semibold text-zinc-800 bg-zinc-100 border border-borderhair px-2 py-0.5 rounded w-max">Certified</div>
+</div>
+<!-- Badge 8: Orbit Future Academy -->
+<div class="bg-white p-6 flex flex-col justify-between h-44 hover:bg-cardbg transition-colors">
+<span class="text-xs font-mono text-subtle uppercase">Orbit Future Academy</span>
+<div>
+<h4 class="font-bold text-sm text-obsidian">AWS re/Start Graduate</h4>
+<p class="text-xs text-subtle mt-1">Linux, Networking &amp; Security</p>
+</div>
+<div class="text-[10px] uppercase font-semibold text-zinc-800 bg-zinc-100 border border-borderhair px-2 py-0.5 rounded w-max">Verified</div>
+</div>
+<!-- Badge 9: STIFIn -->
+<div class="bg-white p-6 flex flex-col justify-between h-44 hover:bg-cardbg transition-colors">
+<span class="text-xs font-mono text-subtle uppercase">STIFIn Institute</span>
+<div>
+<h4 class="font-bold text-sm text-obsidian">STIFIn Level I</h4>
+<p class="text-xs text-subtle mt-1">Cognitive Potential Mapping</p>
+</div>
+<div class="text-[10px] uppercase font-semibold text-zinc-800 bg-zinc-100 border border-borderhair px-2 py-0.5 rounded w-max">Certified</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- END: CredentialsMatrixSection -->
+<!-- BEGIN: EndorsementsSection -->
+<section class="py-20 lg:py-28 border-b border-borderhair bg-white" data-purpose="peer-endorsements">
+<div class="max-w-[1400px] mx-auto px-4 sm:px-6 lg:px-10">
+<!-- Header -->
+<div class="text-center max-w-2xl mx-auto mb-16">
+<h2 class="text-3xl sm:text-4xl lg:text-5xl font-extrabold tracking-tight text-obsidian mb-3">
+            Colleague &amp; Leadership Endorsements
+          </h2>
+<p class="text-subtle text-base sm:text-lg">
+            Testimonials from managing directors, technical leads, and operations teams who have worked alongside Donny.
+          </p>
+</div>
+<!-- 4 Horizontal Cards on #F7F7F8 -->
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+<!-- Endorsement 1 -->
+<div class="p-8 rounded-xl bg-cardbg border border-borderhair flex flex-col justify-between transition hover:shadow-md">
+<div>
+<div class="text-3xl font-serif text-obsidian mb-4">“</div>
+<p class="text-sm text-obsidian/90 leading-relaxed">
+                Donny’s ability to remain utterly calm during server crises while orchestrating high-availability restores across regional networks saved our operations critical hours of downtime.
+              </p>
+</div>
+<div class="mt-8 pt-4 border-t border-borderhair flex items-center gap-3">
+<img alt="Hendra Wijaya" class="w-10 h-10 rounded-full object-cover border border-borderhair" src="https://lh3.googleusercontent.com/aida-public/AB6AXuChBBJlbDIcMyLBUtQahwFPuaVvL4kO8DCsJV4IEOBup6WqXzuwggy-gy2UaUErfsabiL6gaPkfoTfUcAf_Ynn73FR52yN_Cj4rA-QPlww_g3BZgtKkwG4qteOhvlK9a5556UXhN-CyRbQ_vkJ_ZvXXBrNmuIJTlWLAb3MvvzLY5iWqQECD16yEdUnmPeln7yCcxcL-7vMYUEbL5ZmlGSgPDTzxXUFycG-mooo0X1M"/>
+<div>
+<div class="text-xs font-bold text-obsidian">Hendra Wijaya</div>
+<div class="text-[11px] text-subtle">Operations Director, PT MM Cargo</div>
+</div>
+</div>
+</div>
+<!-- Endorsement 2 -->
+<div class="p-8 rounded-xl bg-cardbg border border-borderhair flex flex-col justify-between transition hover:shadow-md">
+<div>
+<div class="text-3xl font-serif text-obsidian mb-4">“</div>
+<p class="text-sm text-obsidian/90 leading-relaxed">
+                His rigor in drafting operational and safety SOPs was exceptional. He bridged engineering technicalities and human execution effortlessly across our field facilities.
+              </p>
+</div>
+<div class="mt-8 pt-4 border-t border-borderhair flex items-center gap-3">
+<img alt="Bambang S." class="w-10 h-10 rounded-full object-cover border border-borderhair" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDyPan1xOKM-soTBj_N6AY2d0e4O4AuoDfPdvx6UeDUqUiecX4DEnklQJJBf_TbXJcvEDteuZKAs8drZohNEEFj4zNHJwnC3A7_s9BNNsPHE9TS1RyZL9XfAltoFJAygk0FV5qbIUY-zz7Rp0tv3w0YNNSf4MK6SYD34mlAS1I8NPKJv9vp3GknAjmvvst6u8ldqO-2AV_m8yXgQpfFWlKq1elKPCp0Alu2Mcn2HCw"/>
+<div>
+<div class="text-xs font-bold text-obsidian">Ir. Bambang Santoso</div>
+<div class="text-[11px] text-subtle">Plant Manager, PT Evans Indonesia</div>
+</div>
+</div>
+</div>
+<!-- Endorsement 3 -->
+<div class="p-8 rounded-xl bg-cardbg border border-borderhair flex flex-col justify-between transition hover:shadow-md">
+<div>
+<div class="text-3xl font-serif text-obsidian mb-4">“</div>
+<p class="text-sm text-obsidian/90 leading-relaxed">
+                In hotel EDP systems, even five minutes of PMS failure is intolerable. Donny maintained our property networks with seamless backup contingencies and round-the-clock reliability.
+              </p>
+</div>
+<div class="mt-8 pt-4 border-t border-borderhair flex items-center gap-3">
+<img alt="Ratna Sari" class="w-10 h-10 rounded-full object-cover border border-borderhair" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBs2tpE3a61ykqJesNR2LmLLgYEVlQcmpTJYxmetu8Y_yibjo36-EZgJEHxPwGWloAoQ2cBe43aQ3EEWd5i6Yg63GijwNY4FjxxtMGmicRgbiKOCV1_0MqiDZIUc1s7KUSPDzOmTO4tQ2e-72m8nUvSg_YWlBQDVX0NA4ttfImmSf7QyVKRRgBsOR2VY-mRIMMzCqg2DBqojhmE0mCXBNKRk9Br4p9BBHxcZUwOZBU"/>
+<div>
+<div class="text-xs font-bold text-obsidian">Ratna Sari Dewi</div>
+<div class="text-[11px] text-subtle">General Cashier &amp; EDP Liaison, Aryaduta</div>
+</div>
+</div>
+</div>
+<!-- Endorsement 4 -->
+<div class="p-8 rounded-xl bg-cardbg border border-borderhair flex flex-col justify-between transition hover:shadow-md">
+<div>
+<div class="text-3xl font-serif text-obsidian mb-4">“</div>
+<p class="text-sm text-obsidian/90 leading-relaxed">
+                Rarely do you encounter someone who masters AWS Cloud architectures yet thoroughly understands HR governance and payroll compliances. A true polymath manager.
+              </p>
+</div>
+<div class="mt-8 pt-4 border-t border-borderhair flex items-center gap-3">
+<img alt="Michael Tan" class="w-10 h-10 rounded-full object-cover border border-borderhair" src="https://lh3.googleusercontent.com/aida-public/AB6AXuByDop5PLL9pQD3KP3O25lE0wBoAL3Ivzndtq95OsQC1xPgxoemjzZfzOLSv-lA5tuErNXEzLskPkiPN1c8OEClMkoo211D4aUkhT3PvHlLyNT6Y27Zc0hc2KZhbbY2W6TApxEKHKgQVbsoA9nIbUaZ7XjaQC95lywvuzNWF3pjjjkg2AC7DNWkEOAsx2uj8cLAAxu5itgN-C8_B7cFn5VMJ--xNFEOdW1NIjsNmHc"/>
+<div>
+<div class="text-xs font-bold text-obsidian">Michael Tanujaya</div>
+<div class="text-[11px] text-subtle">Managing Partner, Nexus Solutions</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- END: EndorsementsSection -->
+<!-- BEGIN: FAQSection -->
+<section class="py-20 lg:py-28 border-b border-borderhair bg-white" data-purpose="faq-accordion" id="faq">
+<div class="max-w-[1400px] mx-auto px-4 sm:px-6 lg:px-10">
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-16">
+<!-- Sticky Left Title -->
+<div class="lg:col-span-4 lg:sticky lg:top-28 self-start">
+<h2 class="text-4xl sm:text-5xl font-extrabold tracking-tight text-obsidian mb-4">
+              FAQ
+            </h2>
+<p class="text-subtle text-base leading-relaxed mb-6">
+              Have questions regarding availability, technical capabilities, or leadership background? Here are direct answers to common queries.
+            </p>
+<a class="inline-flex items-center text-sm font-semibold text-obsidian hover:underline underline-offset-4" href="#contact">
+              Have a distinct question? Reach out ➔
+            </a>
+</div>
+<!-- Right Accordion List -->
+<div class="lg:col-span-8 divide-y divide-borderhair border-t border-b border-borderhair" data-purpose="accordion-container">
+<!-- Accordion Item 1 -->
+<div class="py-6" data-purpose="faq-item">
+<button class="w-full flex items-center justify-between text-left focus:outline-none group" onclick="toggleFaq(this)">
+<span class="text-lg sm:text-xl font-bold text-obsidian group-hover:text-black">
+                  What is Donny’s primary area of expertise?
+                </span>
+<span class="faq-icon text-2xl font-light text-subtle transition-transform duration-200">−</span>
+</button>
+<div class="faq-content mt-4 text-subtle text-sm sm:text-base leading-relaxed pr-6">
+                Donny specializes at the intersection of Cloud Engineering (AWS &amp; GCP), enterprise IT infrastructure reliability, and operational leadership. With a foundational Telecommunications Electrical Engineering degree from Universitas Sumatera Utara, he translates high-level corporate strategy into rigorous SOPs, reliable uptime, and motivated teams.
+              </div>
+</div>
+<!-- Accordion Item 2 -->
+<div class="py-6" data-purpose="faq-item">
+<button class="w-full flex items-center justify-between text-left focus:outline-none group" onclick="toggleFaq(this)">
+<span class="text-lg sm:text-xl font-bold text-obsidian group-hover:text-black">
+                  What Cloud and IT infrastructure certifications does he hold?
+                </span>
+<span class="faq-icon text-2xl font-light text-subtle transition-transform duration-200">+</span>
+</button>
+<div class="faq-content hidden mt-4 text-subtle text-sm sm:text-base leading-relaxed pr-6">
+                He is an AWS Certified Cloud Practitioner, Google Cloud Digital Leader, Dicoding Cloud Architect Graduate, Cisco CCNA trained, and an AWS re/Start alumna via Orbit Future Academy. He also holds the national Ahli K3 Umum safety certification from Kemnaker RI.
+              </div>
+</div>
+<!-- Accordion Item 3 -->
+<div class="py-6" data-purpose="faq-item">
+<button class="w-full flex items-center justify-between text-left focus:outline-none group" onclick="toggleFaq(this)">
+<span class="text-lg sm:text-xl font-bold text-obsidian group-hover:text-black">
+                  Is he open to full-time executive roles or project-based consulting?
+                </span>
+<span class="faq-icon text-2xl font-light text-subtle transition-transform duration-200">+</span>
+</button>
+<div class="faq-content hidden mt-4 text-subtle text-sm sm:text-base leading-relaxed pr-6">
+                Yes. Donny is open to permanent executive positions (Head of IT, Operations Director, General Manager) as well as selective technical consulting engagements focused on cloud migration, infrastructure audits, and operational SOP overhaul.
+              </div>
+</div>
+<!-- Accordion Item 4 -->
+<div class="py-6" data-purpose="faq-item">
+<button class="w-full flex items-center justify-between text-left focus:outline-none group" onclick="toggleFaq(this)">
+<span class="text-lg sm:text-xl font-bold text-obsidian group-hover:text-black">
+                  Can he collaborate across remote or hybrid teams in Southeast Asia?
+                </span>
+<span class="faq-icon text-2xl font-light text-subtle transition-transform duration-200">+</span>
+</button>
+<div class="faq-content hidden mt-4 text-subtle text-sm sm:text-base leading-relaxed pr-6">
+                Absolutely. Based flexibly across Medan and Jakarta, Indonesia, he routinely interfaces with teams across ASEAN and APAC using modern asynchronous tooling, Slack, Jira, GitHub, and enterprise cloud consoles.
+              </div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- END: FAQSection -->
+<!-- BEGIN: InsightsSection -->
+<section class="py-20 lg:py-28 border-b border-borderhair bg-white" data-purpose="editorial-insights" id="insights">
+<div class="max-w-[1400px] mx-auto px-4 sm:px-6 lg:px-10">
+<!-- Header -->
+<div class="text-center max-w-2xl mx-auto mb-16">
+<h2 class="text-3xl sm:text-4xl lg:text-5xl font-extrabold tracking-tight text-obsidian mb-3">
+            Insights &amp; Articles
+          </h2>
+<p class="text-subtle text-base sm:text-lg">
+            Practical analyses on cloud architecture, supply chain performance, and modern executive leadership.
+          </p>
+</div>
+<!-- 3-Column Editorial Grid -->
+<div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+<!-- Article 1 -->
+<article class="group cursor-pointer">
+<div class="relative w-full aspect-[16/10] rounded-xl overflow-hidden bg-cardbg border border-borderhair mb-5">
+<img alt="Cloud High Availability Architecture" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCIbDUrJQeYNsVhr6v-bPYnO6iIRHZBME5XnNfb5lDa6QTytY9DBh8Xyzhu1dXiqvQQo2zrSwM4wvhLB_JY3t0RaOBjFFaFYH1IcTiM4fHJSBp-vuByJiknAeGUO6HSZdyKtkcDIlZiqEAQl_-C2g8TItlL2lOpJT9cgDmcXsm_mqb9uWmGKDAQtMurXya2f7QyKCwrmZbVTRrCzEjTaFr-3RKgxFtXNm36CHzA3jM"/>
+</div>
+<div class="flex items-center gap-3 text-xs text-subtle mb-3">
+<span>Nov 12, 2024</span>
+<span>•</span>
+<span class="font-medium text-obsidian bg-cardbg px-2 py-0.5 rounded border border-borderhair">6 min read</span>
+</div>
+<h3 class="text-lg sm:text-xl font-bold text-obsidian group-hover:underline underline-offset-4 decoration-1 leading-snug">
+              Architecting Multi-Region High-Availability in AWS &amp; GCP
+            </h3>
+<p class="text-sm text-subtle mt-2 line-clamp-2">
+              Key architectural patterns for achieving sub-second failovers without exponentially inflating cloud egress costs.
+            </p>
+</article>
+<!-- Article 2 -->
+<article class="group cursor-pointer">
+<div class="relative w-full aspect-[16/10] rounded-xl overflow-hidden bg-cardbg border border-borderhair mb-5">
+<img alt="Air Cargo SOP Modernization" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDRLo6GFdmOy7rMnRueqCj6ePfKgRq4WV9n91D-acMR93hz8LVvygIu9qGRoSkUueWBS076LexpLDy46mgiyJcV_kVzI3XV_gcEOsAUDXstyogg7WREXCU-pCZkavMxQ46k5Vh5vBpyKmV8cMWbk4mVioGNWOmW6c-_aGmPH4qXXxUdcwKPI7RVTmlb8amwvcnyYeThGgTvOkrQ0FrpZlpdHHdCsKj-3ER1u3R8e9I"/>
+</div>
+<div class="flex items-center gap-3 text-xs text-subtle mb-3">
+<span>Oct 28, 2024</span>
+<span>•</span>
+<span class="font-medium text-obsidian bg-cardbg px-2 py-0.5 rounded border border-borderhair">9 min read</span>
+</div>
+<h3 class="text-lg sm:text-xl font-bold text-obsidian group-hover:underline underline-offset-4 decoration-1 leading-snug">
+              Streamlining Air Cargo Lead Times via SOP Modernization
+            </h3>
+<p class="text-sm text-subtle mt-2 line-clamp-2">
+              A case study on reducing airport terminal clearance delays by 34% through digitized verification and standardized SLA enforcement.
+            </p>
+</article>
+<!-- Article 3 -->
+<article class="group cursor-pointer">
+<div class="relative w-full aspect-[16/10] rounded-xl overflow-hidden bg-cardbg border border-borderhair mb-5">
+<img alt="Operational Mindset in IT Leadership" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCPZ7M6rDlNiVA3zv8STJCcFdYiE_MDNuPRsVNqB0dlePsg2-Yj_lawYcGPvnuZOwwUqbW7J8sWetzPYVfAwNSYL7UsHvOZFCgjjbZs97xd5WvIigja5UllY3sFHCXVLr5AjCJQ-y3PMz65YAftC2OkZSpXX4ImL0o2ssZk21TVVIWlQzwXzWcUOTxNQ6rtTyKvS4cNmIsIdgg2acihO3ceAew7RUeSbLoO5VmMVSM"/>
+</div>
+<div class="flex items-center gap-3 text-xs text-subtle mb-3">
+<span>Sep 18, 2024</span>
+<span>•</span>
+<span class="font-medium text-obsidian bg-cardbg px-2 py-0.5 rounded border border-borderhair">7 min read</span>
+</div>
+<h3 class="text-lg sm:text-xl font-bold text-obsidian group-hover:underline underline-offset-4 decoration-1 leading-snug">
+              Bridging the Executive Gap: Operational Mindset in Cloud IT
+            </h3>
+<p class="text-sm text-subtle mt-2 line-clamp-2">
+              Why engineers who understand P&amp;L statements, labor law, and physical asset lifecycles build more resilient organizations.
+            </p>
+</article>
+</div>
+</div>
+</section>
+<!-- END: InsightsSection -->
+</main>
+<!-- BEGIN: MainFooter -->
+<footer class="pt-20 lg:pt-28 pb-12 bg-white overflow-hidden" data-purpose="site-footer" id="contact">
+<div class="max-w-[1400px] mx-auto px-4 sm:px-6 lg:px-10">
+<!-- Top Action Split -->
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-10 pb-16 border-b border-borderhair items-center">
+<!-- Left: CTA text & buttons -->
+<div class="lg:col-span-6">
+<h2 class="text-2xl sm:text-3xl lg:text-4xl font-extrabold tracking-tight text-obsidian mb-6">
+            Have a project or<br class="hidden sm:inline"/> role in mind?
+          </h2>
+<div class="flex flex-wrap items-center gap-4">
+<a class="swiss-pill-btn inline-flex items-center gap-2 bg-[#27272A] text-white text-sm font-semibold px-6 py-3.5 rounded-full hover:bg-neutral-800" href="mailto:donny.ginting@gmail.com"><span>donny.ginting@gmail.com</span><span class="text-3xl">↗</span></a>
+<a class="swiss-pill-btn inline-flex items-center gap-2 bg-cardbg text-obsidian border border-borderhair text-sm font-semibold px-6 py-3.5 rounded-full hover:bg-hoverbg" href="#">
+<span>Download CV (PDF)</span>
+<svg class="w-4 h-4 text-subtle" fill="none" stroke="currentColor" viewbox="0 0 24 24">
+<path d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path>
+</svg>
+</a>
+</div>
+</div>
+<!-- Right: Huge Clickable Email -->
+<div class="lg:col-span-6 lg:text-right">
+<a class="inline-flex items-center gap-2 text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-extrabold text-obsidian tracking-tight hover:opacity-75 transition-opacity" href="mailto:donny.ginting@gmail.com"><span>donny.ginting@gmail.com</span><span class="text-3xl">↗</span></a>
+<p class="text-subtle text-sm mt-3">Direct response within 24 business hours</p>
+</div>
+</div>
+<!-- Middle Navigation & Meta Links -->
+<div class="py-12 border-b border-borderhair grid grid-cols-2 md:grid-cols-4 gap-8 text-sm">
+<!-- Col 1: Sitemap -->
+<div>
+<h5 class="text-xs uppercase tracking-wider font-bold text-obsidian mb-4">Navigation</h5>
+<ul class="space-y-2.5 text-subtle font-medium">
+<li><a class="hover:text-obsidian transition-colors" href="#hero">Home</a></li>
+<li><a class="hover:text-obsidian transition-colors" href="#works">Selected Works</a></li>
+<li><a class="hover:text-obsidian transition-colors" href="#expertise">Core Expertise</a></li>
+<li><a class="hover:text-obsidian transition-colors" href="#credentials">Credentials Matrix</a></li>
+</ul>
+</div>
+<!-- Col 2: Competencies -->
+<div>
+<h5 class="text-xs uppercase tracking-wider font-bold text-obsidian mb-4">Competencies</h5>
+<ul class="space-y-2.5 text-subtle font-medium">
+<li><span class="hover:text-obsidian">Cloud Architecture (AWS/GCP)</span></li>
+<li><span class="hover:text-obsidian">Linux System Administration</span></li>
+<li><span class="hover:text-obsidian">Cargo &amp; Logistics Governance</span></li>
+<li><span class="hover:text-obsidian">Occupational Safety (K3 Umum)</span></li>
+</ul>
+</div>
+<!-- Col 3: Social Links -->
+<div>
+<h5 class="text-xs uppercase tracking-wider font-bold text-obsidian mb-4">Connect</h5>
+<ul class="space-y-2.5 text-subtle font-medium">
+<li><a class="hover:text-obsidian transition-colors" href="https://linkedin.com" rel="noreferrer" target="_blank">LinkedIn Profile ↗</a></li>
+<li><a class="hover:text-obsidian transition-colors" href="https://github.com" rel="noreferrer" target="_blank">GitHub Repositories ↗</a></li>
+<li><a class="hover:text-obsidian transition-colors" href="mailto:donny.ginting@gmail.com">Email Direct ↗</a></li>
+</ul>
+</div>
+<!-- Col 4: Location & Legal -->
+<div>
+<h5 class="text-xs uppercase tracking-wider font-bold text-obsidian mb-4">Legal &amp; Location</h5>
+<p class="text-subtle text-xs leading-relaxed">
+            Medan &amp; Jakarta, Indonesia.<br/>
+            All professional data verified according to national engineering and academic registers.
+          </p>
+<div class="mt-4 text-xs text-subtle">
+            © <span id="current-year">2026</span> Donny Afandy Ginting.
+          </div>
+</div>
+</div>
+<!-- Bottom Edge-to-Edge Display Brandmark -->
+<div class="w-full pt-10 select-none overflow-hidden text-center sm:text-left">
+<div class="huge-footer-watermark font-extrabold text-obsidian uppercase tracking-tight leading-none">
+          Donny Ginting
+        </div>
+</div>
+</div>
+</footer>
+<!-- END: MainFooter -->
+<!-- JavaScript: Interactivity -->
+<script data-purpose="accordion-logic">
+    function toggleFaq(button) {
+      const parent = button.parentElement;
+      const content = parent.querySelector('.faq-content');
+      const icon = button.querySelector('.faq-icon');
+      
+      const isHidden = content.classList.contains('hidden');
+      
+      // Close all first (Swiss minimal behavior)
+      document.querySelectorAll('#faq .faq-content').forEach(el => el.classList.add('hidden'));
+      document.querySelectorAll('#faq .faq-icon').forEach(el => el.textContent = '+');
+      
+      if (isHidden) {
+        content.classList.remove('hidden');
+        icon.textContent = '−';
+      } else {
+        content.classList.add('hidden');
+        icon.textContent = '+';
+      }
+    }
+  </script>
+<script data-purpose="runtime-helpers">
+    document.addEventListener('DOMContentLoaded', () => {
+      // Dynamic Copyright Year
+      const yearSpan = document.getElementById('current-year');
+      if (yearSpan) {
+        yearSpan.textContent = new Date().getFullYear();
+      }
+    });
+  </script>
+</body></html>

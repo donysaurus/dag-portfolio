@@ -1,0 +1,74 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Plus Jakarta Sans", -apple-system, BlinkMacSystemFont, sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, monospace;
+  --color-obsidian: #18181b;
+  --color-ink: #1c1e21;
+  --color-slate-body: #525866;
+  --color-subtle: #71717a;
+  --color-ash: #868c98;
+  --color-borderhair: #e2e4e9;
+  --color-cardbg: #f6f7f8;
+  --color-hoverbg: #eceef1;
+  --color-actionbtn: #27272a;
+}
+
+@layer base {
+  body {
+    font-family: var(--font-sans);
+    font-feature-settings: "cv02", "cv03", "cv04", "cv11";
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    color: #18181b;
+    background-color: #ffffff;
+  }
+
+  h1,
+  h2,
+  h3 {
+    text-wrap: balance;
+  }
+}
+
+.huge-name-display {
+  font-size: clamp(3rem, 10vw, 10.2rem);
+  line-height: 0.9;
+  letter-spacing: -0.04em;
+}
+
+.huge-footer-watermark {
+  font-size: clamp(3rem, 11.8vw, 13rem);
+  line-height: 0.85;
+  letter-spacing: -0.04em;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+@media print {
+  body * {
+    visibility: hidden;
+  }
+  #cv-print-area,
+  #cv-print-area * {
+    visibility: visible;
+  }
+  #cv-print-area {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    background: #ffffff;
+  }
+}
